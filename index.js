@@ -9,7 +9,8 @@ clientSecret: '5a9892cfdbfa2fef09f7b748032939cf' ,
 callbackURL: "https://powerful-ravine-93053.herokuapp.com/auth/facebook/callback"
   },
   function(accessToken, refreshToken, profile, done) {
-    console.log(accessToken);
+    console.log("el token:" + accessToken);
+    done();
   }
 ));
 
