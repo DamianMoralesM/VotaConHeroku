@@ -6,7 +6,7 @@ var passport = require('passport') , FacebookStrategy = require('passport-facebo
 passport.use(new FacebookStrategy({
   clientID: '516145145497747',
 clientSecret: '5a9892cfdbfa2fef09f7b748032939cf' ,
-callbackURL: "https://face-auth-9e238.firebaseapp.com/auth/facebook/callback"
+callbackURL: "https://powerful-ravine-93053.herokuapp.com/auth/facebook/callback"
   },
   function(accessToken, refreshToken, profile, done) {
     console.log(accessToken);
